@@ -10,7 +10,7 @@ export default function Sidebarfooter({isOpen}) {
                 className="logoutBtn"
                 startIcon={
                     <Image
-                        src="/img/sideBarIcons/logOut.svg"
+                        src="/img/sidebarIcons/logOut.svg"
                         alt="logoutBtn"
                         width={24}
                         height={24}
@@ -28,7 +28,7 @@ export default function Sidebarfooter({isOpen}) {
             {/* Logo + Text */}
             <Box className="logoWrapper">
                 <Image
-                    src="/img/sideBarIcons/otm-logo.svg"
+                    src="/img/sidebarIcons/otm-logo.svg"
                     alt="OTM Logo"
                     width={isOpen ? 150 : 60} // shrink logo when collapsed
                     height={isOpen ? 72 : 36} // adjust proportionally

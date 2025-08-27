@@ -79,8 +79,8 @@ export default function Sidebar() {
                 <Image
                     src={
                         isOpen
-                            ? '/img/sideBarIcons/sideBarToggleClose.svg'
-                            : '/img/sideBarIcons/sideBarToggleOpen.svg'
+                            ? '/img/sidebarIcons/sideBarToggleClose.svg'
+                            : '/img/sidebarIcons/sideBarToggleOpen.svg'
                     }
                     alt="toggleIcon"
                     width={48}
