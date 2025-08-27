@@ -1,0 +1,114 @@
+@use '../../abstracts/variables' as *;
+
+.evaluationCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+    background: $white;
+    border-radius: 10px;
+    cursor: pointer;
+
+    /* elevation/2 */
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.12),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2) !important;
+
+    .evaluationCardLeft,
+    .evaluationCardMiddle,
+    .evaluationCardRight {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .evaluationCardLeft {
+        min-width: 150px;
+        padding-right: 48px;
+        border-right: 1px solid $divider;
+
+        .idLabel {
+            color: $text-primary;
+
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 143%;
+            letter-spacing: 0.17px;
+        }
+
+        .id {
+            color: $text-primary;
+
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 133.4%;
+            letter-spacing: 0.25px;
+        }
+
+        .submitted {
+            color: $text-primary;
+
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 143%;
+            letter-spacing: 0.17px;
+        }
+    }
+
+    .evaluationCardMiddle {
+        padding-left: 48px;
+        padding-right: 48px;
+        min-width: 200px;
+
+        .name {
+            color: $text-primary;
+
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            letter-spacing: 0.15px;
+        }
+
+        .email {
+            color: $primary;
+
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 143%;
+            letter-spacing: 0.17px;
+        }
+    }
+
+    .evaluationCardRight {
+        padding-left: 48px;
+        border-left: 1px solid $divider;
+
+        .progressContainer {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+
+            .progressText {
+                font-size: 12px; // caption size
+            }
+        }
+
+        .reviewInfo {
+            .evaluationStatus,
+            .reviewStatus {
+                color: $text-primary;
+
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: 0.15px;
+            }
+        }
+    }
+}

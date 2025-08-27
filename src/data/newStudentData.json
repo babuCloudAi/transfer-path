@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "rfiDate": "January 10, 2025 9:30 AM",
+        "firstName": "Alice",
+        "lastName": "Johnson",
+        "email": "student1@example.com"
+    },
+    {
+        "id": 2,
+        "rfiDate": "January 12, 2025 11:15 AM",
+        "firstName": "Bob",
+        "lastName": "Williams",
+        "email": "student2@example.com"
+    },
+    {
+        "id": 3,
+        "rfiDate": "January 15, 2025 2:45 PM",
+        "firstName": "Clara",
+        "lastName": "Smith",
+        "email": "student3@example.com"
+    },
+    {
+        "id": 4,
+        "rfiDate": "January 16, 2025 10:20 AM",
+        "firstName": "David",
+        "lastName": "Brown",
+        "email": "student4@example.com"
+    },
+    {
+        "id": 5,
+        "rfiDate": "January 18, 2025 8:50 AM",
+        "firstName": "Eva",
+        "lastName": "Martinez",
+        "email": "student5@example.com"
+    },
+    {
+        "id": 6,
+        "rfiDate": "January 19, 2025 1:40 PM",
+        "firstName": "Frank",
+        "lastName": "Taylor",
+        "email": "student6@example.com"
+    },
+    {
+        "id": 7,
+        "rfiDate": "January 21, 2025 3:10 PM",
+        "firstName": "Grace",
+        "lastName": "Anderson",
+        "email": "student7@example.com"
+    },
+    {
+        "id": 8,
+        "rfiDate": "January 22, 2025 5:25 PM",
+        "firstName": "Henry",
+        "lastName": "Clark",
+        "email": "student8@example.com"
+    },
+    {
+        "id": 9,
+        "rfiDate": "January 24, 2025 9:05 AM",
+        "firstName": "Isabella",
+        "lastName": "Rodriguez",
+        "email": "student9@example.com"
+    },
+    {
+        "id": 10,
+        "rfiDate": "January 25, 2025 12:30 PM",
+        "firstName": "Jack",
+        "lastName": "Lewis",
+        "email": "student10@example.com"
+    }
+]

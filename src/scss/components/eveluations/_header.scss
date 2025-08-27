@@ -1,0 +1,134 @@
+.header {
+    display: flex;
+    height: 136px;
+    padding: 40px 56px 24px 56px;
+    align-items: center;
+    align-self: stretch;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+        0 2px 1px -1px rgba(0, 0, 0, 0.2) !important;
+    position: relative;
+    z-index: 1;
+    .evaluationSearch__info {
+        .title {
+            color: rgba(0, 0, 0, 0.87);
+
+            /* OTP Typography/h1 */
+
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 116.7%; /* 46.68px */
+            letter-spacing: 0.25px;
+        }
+    }
+    &__info {
+        .title {
+            color: rgba(0, 0, 0, 0.87);
+
+            /* OTP Typography/h2 */
+
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 116.7%; /* 37.344px */
+        }
+        .subTitle {
+            color: rgba(0, 0, 0, 0.87);
+
+            /* OTP Typography/body 2 */
+
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 143%; /* 20.02px */
+            letter-spacing: 0.17px;
+        }
+    }
+
+    &__actions {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        justify-content: flex-end;
+    }
+
+    &__search {
+        width: 75%;
+    }
+
+    &__filter-button {
+        padding: 6px;
+    }
+
+    &__button {
+        white-space: nowrap;
+    }
+
+    &__filters {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 12px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        padding: 16px 56px 16px;
+    }
+
+    &__filtersLabel {
+        color: rgba(0, 0, 0, 0.87);
+
+        /* OTP Typography/body 2 */
+
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 143%; /* 20.02px */
+        letter-spacing: 0.17px;
+    }
+
+    &__chip {
+        background-color: #f0f0f0;
+    }
+
+    &__clear {
+        font-size: 13px;
+        padding: 0;
+        margin-left: auto;
+        color: rgba(0, 0, 0, 0.87) !important;
+
+        font-style: normal;
+
+        svg {
+            margin-left: 4px;
+        }
+    }
+
+    &__menu {
+        padding: 20px;
+        width: 535px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__subMenu {
+        display: flex;
+        gap: 8px;
+    }
+    &__filterLabel {
+        .MuiTypography-root {
+            white-space: nowrap;
+        }
+    }
+
+    &__menuTitle {
+        margin: 12px 0 4px;
+        font-weight: 600;
+    }
+
+    &__menuActions {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 16px;
+        gap: 16px;
+    }
+}

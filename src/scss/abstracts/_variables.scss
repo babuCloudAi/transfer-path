@@ -1,0 +1,91 @@
+// ============================
+// Core Palette
+// ============================
+$primary: #1976d2; // main primary color (blue 700)
+$primary-light: #63a4ff; // lighter shade
+$primary-dark: #115293; // darker shade
+
+$secondary: #5a6876; // secondary grayish tone
+$secondary-light: #8b99a8;
+$secondary-dark: #2f3d4c;
+
+$white: #ffffff;
+
+// ============================
+// Text Colors
+// ============================
+$text-primary: rgba(0, 0, 0, 0.87);
+$text-secondary: rgba(0, 0, 0, 0.6);
+$text-dark: #333;
+
+// ============================
+// Divider / Border
+// ============================
+$divider: rgba(0, 0, 0, 0.12);
+
+// ============================
+// Backgrounds
+// ============================
+$chip-bg: #f0f0f0;
+
+// Sidebar
+$sidebar-width: 240px;
+$sidebar-collapsed-width: 64px;
+$sidebar-bg-color: #254a79;
+$sidebar-active-bg: rgba(144, 202, 249, 0.15);
+$sidebar-hover-bg: rgba(255, 255, 255, 0.05);
+$sidebar-text-color: #ffffffde;
+
+// ============================
+// Shadows
+// ============================
+$shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 2px 1px -1px rgba(0, 0, 0, 0.2);
+
+// ============================
+// Spacing
+// ============================
+$gap-xs: 4px;
+$gap-sm: 8px;
+$gap-md: 12px;
+$gap-lg: 16px;
+$gap-xl: 26px;
+
+$padding-xs: 6px;
+$padding-sm: 12px;
+$padding-md: 16px;
+$padding-lg: 24px;
+$padding-xl: 40px;
+$padding-2xl: 56px;
+
+// ============================
+// Border Radius
+// ============================
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 12px;
+$radius-xl: 20px;
+
+// ============================
+// Font Sizes
+// ============================
+$font-xs: 12px;
+$font-sm: 13px;
+$font-md: 14px;
+$font-lg: 16px;
+$font-xl: 18px;
+$font-2xl: 24px;
+$font-3xl: 32px;
+
+// ============================
+// Comment / Status Colors
+// ============================
+$comment-info: #0288d1; // blue info
+$comment-success: #2e7d32; // green success
+$comment-warning: #ed6c02; // orange warning
+$comment-error: #d32f2f; // red error
+
+// ============================
+// Namespace
+// ============================
+$namespace: 'app';

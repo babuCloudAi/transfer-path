@@ -1,0 +1,66 @@
+@use '../../abstracts/variables' as *;
+
+.studentSearchResults {
+    border-radius: $gap-lg !important; // 16px → using spacing scale
+    box-shadow: $shadow-sm !important;
+
+    padding: $padding-md $padding-lg;
+    max-width: 900px;
+    margin: $gap-lg auto;
+    background: $white;
+
+    &Title {
+        color: $text-primary;
+
+        font-size: $font-2xl !important;
+        font-style: normal;
+        font-weight: 400 !important;
+        line-height: 133.4%; // keep as is
+        letter-spacing: 0.25px;
+        padding: 0 $padding-lg;
+        margin-bottom: $gap-lg !important;
+    }
+
+    &Grid {
+        height: 300px;
+        width: 100%;
+        padding: 0 $padding-lg;
+    }
+
+    .MuiDataGrid-root {
+        border: none;
+        background-color: $white;
+
+        .MuiDataGrid-columnHeaders {
+            background-color: $white !important;
+            font-weight: 600;
+            font-size: $font-md;
+            border-bottom: 1px solid $text-dark;
+        }
+
+        .MuiDataGrid-columnSeparator {
+            display: none;
+        }
+
+        .MuiDataGrid-cell {
+            font-size: $font-md;
+            background-color: $white;
+        }
+
+        .MuiDataGrid-row {
+            background-color: $white;
+
+            &:hover {
+                background-color: $chip-bg;
+            }
+        }
+
+        .MuiDataGrid-footerContainer {
+            border-top: 1px solid $divider;
+        }
+
+        .MuiDataGrid-cell[data-field='gender'] {
+            background-color: $white;
+        }
+    }
+}

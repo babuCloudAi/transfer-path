@@ -1,0 +1,14 @@
+@use '../abstracts/variables' as *;
+
+.#{$namespace}__container {
+    width: 100% !important;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+main {
+    flex-grow: 1; /* Take up remaining space */
+    width: 100%; /* To ensure the Data Grid does not overflow or scroll excessively */
+    overflow-x: auto; /* To ensure the Data Grid does not overflow or scroll excessively */
+    background-color: #fff;
+}

@@ -1,0 +1,147 @@
+@use '../abstracts/variables' as *;
+
+.#{$namespace}__sideBar {
+    background: $sidebar-bg-color;
+
+    ul {
+        top: 26px !important;
+        transition: right 0.25s linear !important;
+    }
+
+    &.MuiDrawer-root {
+        .MuiDrawer-paper {
+            background-color: $sidebar-bg-color;
+            overflow-x: hidden;
+            transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1);
+        }
+    }
+
+    .menuButton {
+        height: 48px !important;
+        gap: 4px;
+        justify-content: space-between;
+
+        .title {
+            color: $sidebar-text-color;
+        }
+
+        .listIcon {
+            min-width: 35px;
+            color: $sidebar-text-color;
+        }
+
+        .iconCollapsed {
+            display: flex;
+            justify-content: center;
+            min-width: 50px;
+        }
+
+        &:hover {
+            background: $sidebar-hover-bg !important;
+        }
+    }
+
+    .active {
+        display: block;
+        background: rgba(255, 255, 255, 0.1) !important;
+        color: $sidebar-text-color !important;
+    }
+
+    .collapsedActive {
+        display: block;
+        background: #f3faff !important;
+        color: $sidebar-bg-color !important;
+    }
+
+    .avatar {
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 70px;
+        gap: 16px;
+
+        .custom-avatar {
+            width: 67px;
+            height: 67px;
+            border-radius: 100px;
+            background: #bdbdbd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 20px;
+            color: $white;
+        }
+
+        .username {
+            color: $white;
+
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            letter-spacing: 0.15px;
+        }
+
+        &.collapsed .custom-avatar {
+            width: 37px;
+            height: 37px;
+            font-size: 20px;
+        }
+
+        &.collapsed .username {
+            display: none;
+        }
+    }
+}
+
+.#{$namespace}__sideBarToggler {
+    z-index: 1300;
+    position: fixed !important;
+    top: 53px !important;
+    left: calc(226px - 1rem) !important;
+    transition: right 0.25s linear !important;
+
+    &.closed {
+        left: 27px !important;
+    }
+
+    img {
+        transition: all 0.3s ease;
+    }
+}
+
+.#{$namespace}__sidebarFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    .logoutBtn {
+        color: $white;
+        text-align: center;
+        text-transform: none;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 143%;
+        letter-spacing: 0.17px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .logoWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        border-top: 1px solid rgba(0, 0, 0, 0.25);
+        width: 100%;
+        padding: 16px 40px;
+        margin-top: 24px;
+    }
+}

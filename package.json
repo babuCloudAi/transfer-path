@@ -1,0 +1,29 @@
+{
+    "name": "transfer-pathways",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev --turbopack",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.1",
+        "@iconify-icon/react": "^3.0.0",
+        "@mui/material": "^7.2.0",
+        "@mui/material-nextjs": "^7.2.0",
+        "@mui/x-data-grid": "^8.10.2",
+        "@mui/x-date-pickers": "^8.8.0",
+        "next": "^15.4.1",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^3",
+        "eslint": "^9",
+        "eslint-config-next": "15.4.1",
+        "sass": "^1.89.2"
+    }
+}

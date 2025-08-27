@@ -1,0 +1,29 @@
+@use '../../abstracts/variables' as *;
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: $padding-md;
+    font-size: 14px;
+    color: $text-dark;
+    gap: $gap-lg;
+
+    &__rows {
+        margin-right: $gap-md;
+        display: flex;
+        align-items: baseline;
+        gap: $gap-sm;
+
+        select {
+            padding: 2px 6px;
+            font-size: 14px;
+        }
+    }
+
+    &__pagination {
+        display: flex;
+        align-items: center;
+        gap: $gap-lg;
+    }
+}

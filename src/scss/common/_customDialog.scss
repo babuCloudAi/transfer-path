@@ -1,0 +1,63 @@
+@use '../abstracts/variables' as *;
+
+.customDialog {
+    .MuiPaper-root {
+        padding: 12px 20px;
+        gap: 8px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    .MuiDialogTitle-root {
+        color: rgba(0, 0, 0, 0.87);
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400 !important;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+    }
+
+    .MuiDialogContent-root {
+        padding: 12px 20px;
+    }
+
+    .MuiDialogContentText-root {
+        color: rgba(0, 0, 0, 0.87);
+        text-align: center;
+        font-size: 16px !important;
+        font-style: normal;
+        font-weight: 400 !important;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+    }
+
+    .dialogActions {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        width: 100%;
+    }
+
+    .cancelBtn,
+    .confirmBtn {
+        font-size: 13px;
+        padding: 4px 30px;
+    }
+
+    .cancelBtn {
+        border-color: $primary;
+        color: $primary;
+    }
+
+    .confirmBtn {
+        background-color: $primary;
+        color: $white;
+
+        &:hover {
+            background-color: darken($primary, 10%);
+        }
+    }
+}

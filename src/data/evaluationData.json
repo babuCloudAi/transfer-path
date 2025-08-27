@@ -1,0 +1,79 @@
+[
+    {
+        "id": "EV001",
+        "submittedDate": "2025-08-01",
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john.doe@email.com",
+        "progress": 70,
+        "reviewStatus": "Pending",
+        "evaluationStatus": "In Progress",
+        "institutionType": "VCCS"
+    },
+    {
+        "id": "EV002",
+        "submittedDate": "2025-07-25",
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "email": "jane.smith@email.com",
+        "progress": 45,
+        "reviewStatus": "Reviewed",
+        "evaluationStatus": "Completed",
+        "institutionType": "Community Colleges"
+    },
+    {
+        "id": "EV003",
+        "submittedDate": "2025-07-20",
+        "firstName": "Michael",
+        "lastName": "Brown",
+        "email": "michael.brown@email.com",
+        "progress": 30,
+        "reviewStatus": "Pending",
+        "evaluationStatus": "Not Started",
+        "institutionType": "Virginia In-State Colleges"
+    },
+    {
+        "id": "EV004",
+        "submittedDate": "2025-07-15",
+        "firstName": "Emily",
+        "lastName": "Johnson",
+        "email": "emily.johnson@email.com",
+        "progress": 90,
+        "reviewStatus": "Reviewed",
+        "evaluationStatus": "Completed",
+        "institutionType": "Out-of-State Colleges"
+    },
+    {
+        "id": "EV005",
+        "submittedDate": "2025-07-10",
+        "firstName": "David",
+        "lastName": "Wilson",
+        "email": "david.wilson@email.com",
+        "progress": 60,
+        "reviewStatus": "In Review",
+        "evaluationStatus": "In Progress",
+        "institutionType": "VCCS"
+    },
+    {
+        "id": "EV006",
+        "submittedDate": "2025-06-30",
+        "firstName": "Sophia",
+        "lastName": "Miller",
+        "email": "sophia.miller@email.com",
+        "progress": 15,
+        "reviewStatus": "Pending",
+        "evaluationStatus": "Not Started",
+        "institutionType": "Community Colleges"
+    },
+    {
+        "id": "EV007",
+        "submittedDate": "2025-06-20",
+        "firstName": "Daniel",
+        "lastName": "Anderson",
+        "email": "daniel.anderson@email.com",
+        "progress": 80,
+        "reviewStatus": "Reviewed",
+        "evaluationStatus": "Completed",
+        "institutionType": "Virginia In-State Colleges"
+    }
+]

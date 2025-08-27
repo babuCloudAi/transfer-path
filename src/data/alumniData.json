@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "uin": "A1001",
+        "lastName": "Doe",
+        "firstName": "John",
+        "midas": "jdoe",
+        "email": "john.doe@example.com"
+    },
+    {
+        "id": 2,
+        "uin": "A1002",
+        "lastName": "Smith",
+        "firstName": "Jane",
+        "midas": "jsmith",
+        "email": "jane.smith@example.com"
+    },
+    {
+        "id": 3,
+        "uin": "A1003",
+        "lastName": "Brown",
+        "firstName": "Michael",
+        "midas": "mbrown",
+        "email": "michael.brown@example.com"
+    },
+    {
+        "id": 4,
+        "uin": "A1004",
+        "lastName": "Johnson",
+        "firstName": "Emily",
+        "midas": "ejohnson",
+        "email": "emily.johnson@example.com"
+    },
+    {
+        "id": 5,
+        "uin": "A1005",
+        "lastName": "Davis",
+        "firstName": "Chris",
+        "midas": "cdavis",
+        "email": "chris.davis@example.com"
+    },
+    {
+        "id": 6,
+        "uin": "A1006",
+        "lastName": "Wilson",
+        "firstName": "Sarah",
+        "midas": "swilson",
+        "email": "sarah.wilson@example.com"
+    },
+    {
+        "id": 7,
+        "uin": "A1007",
+        "lastName": "Taylor",
+        "firstName": "David",
+        "midas": "dtaylor",
+        "email": "david.taylor@example.com"
+    },
+    {
+        "id": 8,
+        "uin": "A1008",
+        "lastName": "Anderson",
+        "firstName": "Laura",
+        "midas": "landerson",
+        "email": "laura.anderson@example.com"
+    },
+    {
+        "id": 9,
+        "uin": "A1009",
+        "lastName": "Thomas",
+        "firstName": "James",
+        "midas": "jthomas",
+        "email": "james.thomas@example.com"
+    },
+    {
+        "id": 10,
+        "uin": "A1010",
+        "lastName": "Moore",
+        "firstName": "Olivia",
+        "midas": "omoore",
+        "email": "olivia.moore@example.com"
+    },
+    {
+        "id": 11,
+        "uin": "A1011",
+        "lastName": "Jackson",
+        "firstName": "Daniel",
+        "midas": "djackson",
+        "email": "daniel.jackson@example.com"
+    },
+    {
+        "id": 12,
+        "uin": "A1012",
+        "lastName": "Martin",
+        "firstName": "Sophia",
+        "midas": "smartin",
+        "email": "sophia.martin@example.com"
+    },
+    {
+        "id": 13,
+        "uin": "A1013",
+        "lastName": "Lee",
+        "firstName": "Matthew",
+        "midas": "mlee",
+        "email": "matthew.lee@example.com"
+    },
+    {
+        "id": 14,
+        "uin": "A1014",
+        "lastName": "Perez",
+        "firstName": "Isabella",
+        "midas": "iperez",
+        "email": "isabella.perez@example.com"
+    },
+    {
+        "id": 15,
+        "uin": "A1015",
+        "lastName": "White",
+        "firstName": "Andrew",
+        "midas": "awhite",
+        "email": "andrew.white@example.com"
+    },
+    {
+        "id": 16,
+        "uin": "A1016",
+        "lastName": "Harris",
+        "firstName": "Grace",
+        "midas": "gharris",
+        "email": "grace.harris@example.com"
+    },
+    {
+        "id": 17,
+        "uin": "A1017",
+        "lastName": "Clark",
+        "firstName": "Joshua",
+        "midas": "jclark",
+        "email": "joshua.clark@example.com"
+    },
+    {
+        "id": 18,
+        "uin": "A1018",
+        "lastName": "Rodriguez",
+        "firstName": "Mia",
+        "midas": "mrodriguez",
+        "email": "mia.rodriguez@example.com"
+    },
+    {
+        "id": 19,
+        "uin": "A1019",
+        "lastName": "Lewis",
+        "firstName": "Ethan",
+        "midas": "elewis",
+        "email": "ethan.lewis@example.com"
+    },
+    {
+        "id": 20,
+        "uin": "A1020",
+        "lastName": "Walker",
+        "firstName": "Charlotte",
+        "midas": "cwalker",
+        "email": "charlotte.walker@example.com"
+    }
+]

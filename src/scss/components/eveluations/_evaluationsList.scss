@@ -1,0 +1,10 @@
+.evaluations {
+    width: 100%;
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 40px 56px 24px 56px;
+    }
+}

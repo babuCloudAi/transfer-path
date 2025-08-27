@@ -1,0 +1,230 @@
+@use '../../abstracts/variables' as *;
+
+/* ===============================
+   TranscriptUploader (layout shell)
+   =============================== */
+.transcriptUploader {
+    display: flex;
+    height: 89%;
+    padding-top: 1rem;
+
+    .transcriptUploaderPanel {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+    }
+
+    .fileListWrapper {
+        width: 35%;
+        overflow: auto;
+        padding: 2rem 1rem;
+        background: #fafafa;
+        border-right: 1px solid $divider;
+    }
+
+    .uploadZoneWrapper {
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $divider;
+        background: $divider;
+    }
+
+    .filePreviewWrapper {
+        flex: 1;
+        overflow: clip;
+        border-left: 1px solid $divider;
+        background: $white;
+    }
+
+    @media (max-width: 900px) {
+        .fileListWrapper,
+        .uploadZoneWrapper {
+            width: 100%;
+        }
+        .transcriptUploaderPanel {
+            flex-direction: column;
+        }
+    }
+}
+
+/* ===============================
+     File List
+     =============================== */
+.fileList {
+    padding: $padding-lg;
+
+    .fileListTitle {
+        color: $text-primary;
+
+        font-size: $font-3xl;
+        font-weight: 400;
+        line-height: 116.7%;
+        margin-bottom: $gap-md;
+    }
+
+    .fileListItem {
+        display: flex;
+        align-items: center;
+        border-radius: 4px;
+        background: $white;
+        margin-bottom: $gap-xs;
+        cursor: pointer;
+
+        &:hover {
+            background: #f5f5f5;
+        }
+
+        &.Mui-selected {
+            background: $white !important;
+
+            &:hover {
+                background: $white !important;
+            }
+        }
+
+        .fileListDot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: darken($primary, 10%);
+            margin-right: $gap-sm;
+        }
+
+        .fileListFileName {
+            color: $text-primary;
+            font-size: $font-md;
+            line-height: 143%;
+            letter-spacing: 0.17px;
+        }
+    }
+
+    .fileListEmptyText {
+        margin-top: $gap-lg;
+        color: $text-dark;
+        font-size: $font-lg;
+        line-height: 150%;
+    }
+}
+
+/* ===============================
+     Upload Zone
+     =============================== */
+.uploadZoneCard {
+    width: 100%;
+    text-align: center;
+    padding: 90px 60px;
+    border-radius: 15px;
+    background: $white;
+    box-shadow: $shadow-sm;
+
+    .uploadZoneHeading {
+        color: $text-primary;
+        font-size: $font-2xl;
+        margin-bottom: $gap-sm;
+    }
+
+    .uploadZoneSubtext {
+        color: $text-primary;
+        font-size: $font-lg;
+    }
+
+    .uploadZoneDropArea {
+        border: 4px dashed rgba($primary, 0.5);
+        border-radius: 15px;
+        background: $white;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: $gap-sm;
+        padding: 32px 92px;
+
+        &:hover {
+            border-color: $primary;
+            background-color: rgba($primary, 0.04);
+        }
+
+        .uploadZoneDropText {
+            color: $text-primary;
+            font-size: $font-lg;
+        }
+
+        .uploadZoneDivider {
+            color: $text-primary;
+            font-size: $font-xs;
+            margin: $gap-sm 0;
+        }
+    }
+}
+
+/* ===============================
+     File Preview
+     =============================== */
+.filePreviewWrapper {
+    height: 100%;
+
+    .filePreviewFrame {
+        border: 1px solid #ccc;
+    }
+
+    .filePreviewPlaceholder {
+        font-size: $font-md;
+        font-weight: 400;
+        color: $text-secondary;
+        text-align: center;
+        padding: $padding-md;
+    }
+}
+
+/* ===============================
+     Error Dialog
+     =============================== */
+.errorDialog {
+    &Title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: $padding-md;
+    }
+
+    &Heading {
+        color: $text-primary;
+        font-size: $font-2xl !important;
+    }
+
+    &Subheading {
+        color: $comment-error;
+        font-size: $font-md !important;
+    }
+
+    &Content {
+        padding: $padding-md;
+        margin-top: 48px;
+    }
+
+    &Notice {
+        color: $comment-error;
+        font-size: $font-md;
+    }
+
+    &Item {
+        display: flex;
+        padding: $gap-sm;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &Message {
+        display: flex;
+        align-items: center;
+        gap: $gap-sm;
+    }
+
+    &Text {
+        color: $text-primary;
+        font-size: $font-md;
+    }
+}
